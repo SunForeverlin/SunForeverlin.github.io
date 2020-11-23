@@ -1,0 +1,93 @@
+{
+  "id": "2202580",
+  "name": "卖座",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3741875",
+      "name": "置顶",
+      "font_class": "zhiding",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "14273695",
+      "name": "分 享",
+      "font_class": "fenxiang",
+      "unicode": "ea98",
+      "unicode_decimal": 60056
+    },
+    {
+      "icon_id": "1325858",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "1473243",
+      "name": "电影",
+      "font_class": "dianying",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "2605167",
+      "name": "登录",
+      "font_class": "denglu1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2687523",
+      "name": "影院",
+      "font_class": "yingyuan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3511408",
+      "name": "我 的",
+      "font_class": "home-copy-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5112502",
+      "name": "详情",
+      "font_class": "xiangqing",
+      "unicode": "e7fd",
+      "unicode_decimal": 59389
+    },
+    {
+      "icon_id": "6270911",
+      "name": "详情",
+      "font_class": "xiangqing1",
+      "unicode": "e8a5",
+      "unicode_decimal": 59557
+    },
+    {
+      "icon_id": "8554663",
+      "name": "电影",
+      "font_class": "dianying1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9556351",
+      "name": "我 的",
+      "font_class": "wodedangxuan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13716263",
+      "name": "影院",
+      "font_class": "yingyuan1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
