@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="rem.css">
+    <script>
+        (function () {
+            var changeFont=function () {
+                var deviceW=window.innerWidth||document.documentElement.clientWidth,
+                baseFontSize=100,
+                maxSize=750;
+                var fontSize=deviceW/maxSize*baseFontSize,
+                elementBody=document.querySelector("body,html");
+                elementBody.style.fontSize=fontSize*2+'px';
+                console.log(deviceW)
+            }
+            changeFont()
+        })()
+    </script>
+</head>
+<body>
+<header><h1>header</h1></header>
+<div class="amContent"><h3>content</h3>
+    <p>获取不同设备的尺寸大小，计算出相应的font-size,首先我们自己定一个基准，电脑最大像素为基本上宽都是1920，所以这里定义基准宽度maxSize=1920,基准大小baseFontSize=100,(这个可以自己定义，为了方便计算这里写100)。如果在电脑像素为960，那font-size便是50，所以相应公式便是
+    所求fontSize=设备宽度(deviceW)/maxSize*baseFontSize。得出fontSize值,后设置跟元素的font-size大</p>
+</div>
+<div class="amContent2">
+    <p>获取不同设备的尺寸大小，计算出相应的font-size,首先我们自己定一个基准，电脑最大像素为基本上宽都是1920，所以这里定义基准宽度maxSize=1920,基准大小baseFontSize=100,(这个可以自己定义，为了方便计算这里写100)。如果在电脑像素为960，那font-size便是50，所以相应公式便是：
+所求fontSize=设备宽度(deviceW)/maxSize*baseFontSize。得出fontSize值,后设置跟元素的font-size大</p>
+</div>
+
+</body>
+</html>

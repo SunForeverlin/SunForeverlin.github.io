@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    
+    font-size: 0.3rem;
+    background-color: aqua;
+}
+.amContent{
+    
+    width: 2rem;
+    background-color: blueviolet;
+    position: relative;
+    float: left; overflow: hidden;
+    font-size: 0.1rem;
+}
+.amContent2{
+    background-color: cadetblue;    
+    position: relative;
+    float: right;
+    width: 1.75rem; overflow: hidden;
+    font-size: 0.2rem;
+}
